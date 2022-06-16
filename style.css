@@ -1,0 +1,111 @@
+body {
+  background-image: url("./images/bg-intro-desktop.png");
+  background-position: cover;
+  margin: 0px;
+  padding: 0px;
+  background-color: rgba(243, 86, 149, 0.7);
+}
+
+.main_row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-between;
+  width: 95%;
+  padding: 0.2%;
+  margin: auto;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  width: 40%;
+  color: white;
+  /* flex-basis: 100%; */
+  padding: 1%;
+}
+
+.write_up {
+  width: 80%;
+}
+.up {
+  /* margin-top: 34% !important; */
+  margin: 20%;
+  padding: 0.5%;
+  font-family: Poppins;
+  font-weight: 400;
+}
+
+.up h3 {
+  font-family: Poppins;
+  font-weight: 700;
+}
+
+.form_holder {
+  margin: auto;
+  background-color: ghostwhite;
+  height: 45vh;
+  padding: 40px;
+  width: 450px;
+  border-radius: 20px;
+}
+
+.form_styles {
+  margin-bottom: 10px;
+}
+.try_text {
+  background-color: hsl(248, 32%, 49%);
+  padding: 20px;
+  margin: auto;
+  margin-bottom: 10px !important;
+  border-radius: 15px;
+  width: 340px;
+}
+
+.terms {
+  color: hsl(246, 25%, 77%);
+  margin-top: 2px !important;
+}
+.terms_services {
+  color: hsl(0, 100%, 74%);
+}
+.col2 {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex: 1;
+  width: 60%;
+  color: white;
+  text-align: center;
+
+  /* flex-basis: 100%; */
+  padding: 30px;
+}
+
+.col2 input[type="text"],
+[type="email"],
+[type="password"] {
+  border-radius: 5px;
+  display: block;
+  padding: 15px;
+  width: 90%;
+  border: none;
+  margin-bottom: 9px;
+}
+
+.btn_view {
+  background-color: hsl(154, 59%, 51%);
+  border: none;
+  width: 90%;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 15px;
+}
+
+@media only screen and (min-width: 375px) {
+}
+
+@media only screen and(max-width:1440px) {
+}
